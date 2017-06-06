@@ -5,14 +5,20 @@ import { check } from 'meteor/check';
 import { Links } from './links.js';
 
 Meteor.methods({
-  'links.insert'(title, url) {
+  'links.insert'({url}) {
     check(url, String);
-    check(title, String);
 
     return Links.insert({
       url,
-      title,
-      createdAt: new Date(),
+      changedAt: new Date(),
     });
   },
+
+  // 'links.update'({id}){
+  //   return Links.update({_id: id}, {changedAt: new Date()})
+  // }
+
+  // 'links.remove'({id}){
+  //   return Links.remove()
+  // }
 });

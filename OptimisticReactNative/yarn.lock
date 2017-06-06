@@ -743,7 +743,7 @@ babel-register@^6.18.0, babel-register@^6.24.1:
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
-babel-runtime@^6.0.0, babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0:
+babel-runtime@^6.0.0, babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@6.x.x:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.23.0.tgz#0a9489f144de70efb3ce4300accdb329e2fc543b"
   dependencies:
@@ -790,6 +790,10 @@ babylon@^6.11.0, babylon@^6.13.0, babylon@^6.15.0, babylon@^6.16.1:
 balanced-match@^0.4.1:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
+
+base-64@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/base-64/-/base-64-0.1.0.tgz#780a99c84e7d600260361511c4877613bf24f6bb"
 
 base64-js@^1.1.2:
   version "1.2.0"
@@ -1156,6 +1160,10 @@ cryptiles@2.x.x:
   dependencies:
     boom "2.x.x"
 
+crypto-js@^3.1.6:
+  version "3.1.8"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-3.1.8.tgz#715f070bf6014f2ae992a98b3929258b713f08d5"
+
 csrf@~3.0.0:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/csrf/-/csrf-3.0.6.tgz#b61120ddceeafc91e76ed5313bb5c0b2667b710a"
@@ -1277,6 +1285,12 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
+ejson@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ejson/-/ejson-2.1.2.tgz#0eed4055bc7e0e7561fe59e8c320edc3ff8ce7df"
+  dependencies:
+    underscore "1.8.x"
+
 encoding@^0.1.11:
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
@@ -1348,6 +1362,10 @@ etag@~1.7.0:
 event-target-shim@^1.0.5:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/event-target-shim/-/event-target-shim-1.1.1.tgz#a86e5ee6bdaa16054475da797ccddf0c55698491"
+
+eventemitter3@^1.1.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-1.2.0.tgz#1c86991d816ad1e504750e73874224ecf3bec508"
 
 exec-sh@^0.2.0:
   version "0.2.0"
@@ -1691,7 +1709,7 @@ hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
 
-hoist-non-react-statics@^1.0.3:
+hoist-non-react-statics@^1.0.3, hoist-non-react-statics@1.x.x:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
@@ -1780,7 +1798,7 @@ inquirer@^0.12.0:
     strip-ansi "^3.0.0"
     through "^2.3.6"
 
-invariant@^2.0.0, invariant@^2.2.0:
+invariant@^2.0.0, invariant@^2.1.1, invariant@^2.2.0, invariant@2.x.x:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.2.tgz#9e1f56ac0acdb6bf303306f338be3b204ae60360"
   dependencies:
@@ -2390,7 +2408,7 @@ lodash.isarray@^3.0.0:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/lodash.isarray/-/lodash.isarray-3.0.4.tgz#79e4eb88c36a8122af86f844aa9bcd851b5fbb55"
 
-lodash.keys@^3.0.0:
+lodash.keys@^3.0.0, lodash.keys@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/lodash.keys/-/lodash.keys-3.1.2.tgz#4dbc0472b156be50a0b286855d1bd0b0c656098a"
   dependencies:
@@ -2442,6 +2460,10 @@ lodash@^3.5.0:
 lodash@^4.14.0, lodash@^4.16.6, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+
+lodash@~2.4.1:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -2561,11 +2583,23 @@ minimist@0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
 
+minimongo-cache@0.0.48:
+  version "0.0.48"
+  resolved "https://registry.yarnpkg.com/minimongo-cache/-/minimongo-cache-0.0.48.tgz#a6fbb78b6627554249afeefc1243cf7cba6bea07"
+  dependencies:
+    eventemitter3 "^1.1.0"
+    invariant "^2.1.1"
+    lodash "~2.4.1"
+
 mkdirp@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+mobx@^2.3.4:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-2.7.0.tgz#cf3d82d18c0ca7f458d8f2a240817b3dc7e54a01"
 
 moment@2.x.x:
   version "2.18.1"
@@ -2825,7 +2859,7 @@ pegjs@^0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/pegjs/-/pegjs-0.10.0.tgz#cf8bafae6eddff4b5a7efb185269eaaf4610ddbd"
 
-performance-now@^0.2.0:
+performance-now@^0.2.0, performance-now@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
 
@@ -2924,6 +2958,12 @@ qs@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-4.0.0.tgz#c31d9b74ec27df75e543a86c78728ed8d4623607"
 
+raf@~3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/raf/-/raf-3.1.0.tgz#5d84bf81b57f979f8c492be08378c538bb4eecfc"
+  dependencies:
+    performance-now "~0.2.0"
+
 random-bytes@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/random-bytes/-/random-bytes-1.0.0.tgz#4f68a1dc0ae58bd3fb95848c30324db75d64360b"
@@ -2961,6 +3001,37 @@ react-devtools-core@^2.0.8:
   dependencies:
     shell-quote "^1.6.1"
     ws "^2.0.3"
+
+react-komposer@^1.8.0:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/react-komposer/-/react-komposer-1.13.1.tgz#4b8ac4bcc71323bd7413dcab95c831197f50eed0"
+  dependencies:
+    babel-runtime "6.x.x"
+    hoist-non-react-statics "1.x.x"
+    invariant "2.x.x"
+    mobx "^2.3.4"
+    shallowequal "0.2.x"
+
+react-mixin@^3.0.3:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/react-mixin/-/react-mixin-3.0.5.tgz#e0b7b6713fdc9ddc429267df808b6ac5184c6706"
+  dependencies:
+    object-assign "^4.0.1"
+    smart-mixin "^2.0.0"
+
+react-native-meteor:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-meteor/-/react-native-meteor-1.0.3.tgz#335dc2e60ed941d968117eaeb06d2b5c8fb6a1e1"
+  dependencies:
+    base-64 "^0.1.0"
+    crypto-js "^3.1.6"
+    ejson "^2.1.2"
+    minimongo-cache "0.0.48"
+    react-komposer "^1.8.0"
+    react-mixin "^3.0.3"
+    trackr "^2.0.2"
+    underscore "^1.8.3"
+    wolfy87-eventemitter "^4.3.0"
 
 react-native@0.44.2:
   version "0.44.2"
@@ -3407,6 +3478,12 @@ setimmediate@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
 
+shallowequal@0.2.x:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-0.2.2.tgz#1e32fd5bcab6ad688a4812cb0cc04efc75c7014e"
+  dependencies:
+    lodash.keys "^3.1.2"
+
 shell-quote@^1.6.1, shell-quote@1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.6.1.tgz#f4781949cce402697127430ea3b3c5476f481767"
@@ -3435,6 +3512,10 @@ slash@^1.0.0:
 slide@^1.1.5:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/slide/-/slide-1.1.6.tgz#56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707"
+
+smart-mixin@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/smart-mixin/-/smart-mixin-2.0.0.tgz#a34a1055e32a75b30d2b4e3ca323dc99cb53f437"
 
 sntp@1.x.x:
   version "1.0.9"
@@ -3647,6 +3728,12 @@ tr46@~0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
 
+trackr@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/trackr/-/trackr-2.0.2.tgz#ee38b13b580b30df5e8e0270d1cf3d0212c4745e"
+  dependencies:
+    raf "~3.1.0"
+
 trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
@@ -3727,6 +3814,10 @@ ultron@~1.1.0:
 ultron@1.0.x:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.0.2.tgz#ace116ab557cd197386a4e88f4685378c8b2e4fa"
+
+underscore@^1.8.3, underscore@1.8.x:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.8.3.tgz#4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022"
 
 unpipe@~1.0.0, unpipe@1.0.0:
   version "1.0.0"
@@ -3829,6 +3920,10 @@ which@^1.2.12, which@^1.2.9:
 window-size@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
+
+wolfy87-eventemitter@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/wolfy87-eventemitter/-/wolfy87-eventemitter-4.3.0.tgz#6497396c95e74359f06b6e35409339318d8d964f"
 
 wordwrap@^1.0.0, wordwrap@~1.0.0:
   version "1.0.0"
